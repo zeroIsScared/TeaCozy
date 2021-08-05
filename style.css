@@ -1,0 +1,131 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  text-decoration: underline;
+  margin: 20px;
+  list-style-type: none;
+}
+
+a {
+  color: seashell;
+}
+
+.logo {
+  height: 50px;
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  height: 68px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.logo-container {
+  display: inline-flex;
+  margin: 10px;
+  font-size: 50px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.nav-bar {
+  display: inline-flex;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.showcase {
+  display: flex;
+  background-image: url(img-mission-background.jpg);
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  margin: 0 70px 0 70px;
+}
+.mission {
+  background-color: black;
+  color: seashell;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0%;
+}
+
+.box {
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  justify-content: space-between;
+  align-content: center;
+}
+.box img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.box h4 {
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.locations {
+  display: flex;
+  background-image: url("img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position-y: -100px;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  margin: 0 70px 0 70px;
+  padding: 0;
+}
+.location {
+  width: 100%;
+}
+
+.location h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.box-location {
+  display: inline-block;
+  width: 300px;
+  height: 220px;
+  margin: 15px 20px;
+  background-color: black;
+  opacity: 1;
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#copyright {
+  text-align: left;
+  margin: 20px;
+}
